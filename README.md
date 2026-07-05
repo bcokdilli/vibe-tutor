@@ -23,3 +23,7 @@ Start a new Codex thread after installing so the skill metadata is picked up.
 ```
 
 See `plugins/vibe-tutor/README.md` for plugin details and local development notes.
+
+## License
+
+MIT. See `LICENSE`.

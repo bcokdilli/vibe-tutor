@@ -40,3 +40,7 @@ Vibe Tutor can report tests, lint, or build results only when the current agent 
 python3 skills/vibe-tutor/scripts/collect_diff_context.py --json
 python3 skills/vibe-tutor/scripts/evaluate_digest.py path/to/digest.md
 ```
+
+## License
+
+MIT. See the repository root `LICENSE`.

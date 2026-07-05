@@ -18,6 +18,25 @@
 - [x] Proved it works (test / log / output)
 - [x] Showed the behavior diff to the user
 
+## Task: apply open-source license
+
+### Steps
+- [x] 1. Choose a permissive license suitable for public reuse.
+- [x] 2. Add license file and repo/plugin metadata.
+- [x] 3. Validate, commit, push, and confirm GitHub recognizes it.
+
+### Risks
+- MIT is permissive and allows commercial/proprietary reuse; choose Apache-2.0 later only if explicit patent terms become important.
+
+### Review (fill in when done)
+- What changed: Added MIT license metadata.
+- How I verified it: Plugin validation passed and the MIT license text check passed.
+- Side effect risk: Low; license and docs metadata only.
+
+### Done?
+- [x] Proved it works (test / log / output)
+- [x] Showed the behavior diff to the user
+
 ## Task: publish vibe-tutor as public GitHub marketplace repo
 
 ### Steps
