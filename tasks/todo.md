@@ -18,6 +18,44 @@
 - [x] Proved it works (test / log / output)
 - [x] Showed the behavior diff to the user
 
+## Task: replace README cover with workflow infographic
+
+### Steps
+- [x] 1. Use the supplied CodexQB-style reference to design a text-readable workflow diagram.
+- [x] 2. Add deterministic SVG source and render a README PNG asset.
+- [x] 3. Remove the old AI-rendered cover, validate, and report commit/push status.
+
+### Risks
+- Generated bitmap diagrams can garble text, so this version uses SVG source rendered to PNG.
+
+### Review (fill in when done)
+- What changed: Replaced the README cover with `docs/assets/vibe-tutor-workflow.png` rendered from `docs/assets/vibe-tutor-workflow.svg`.
+- How I verified it: Visually inspected the rendered PNG and ran `make check`.
+- Side effect risk: Low; documentation asset only.
+
+### Done?
+- [x] Proved it works (test / log / output)
+- [x] Showed the behavior diff to the user
+
+## Task: clean README workflow icons
+
+### Steps
+- [x] 1. Remove visual icon clutter and overlap in the workflow infographic.
+- [x] 2. Re-render the README PNG from the SVG source.
+- [x] 3. Validate the repo checks.
+
+### Risks
+- The workflow image is documentation-only; product behavior is unchanged.
+
+### Review (fill in when done)
+- What changed: Simplified the workflow card icons, kept the validation lane removed, and aligned the title with the Vibe Tutor product name.
+- How I verified it: Visually inspected `docs/assets/vibe-tutor-workflow.png` and ran `make check`.
+- Side effect risk: Low; documentation asset only.
+
+### Done?
+- [x] Proved it works (test / log / output)
+- [x] Showed the behavior diff to the user
+
 ## Task: apply open-source license
 
 ### Steps
