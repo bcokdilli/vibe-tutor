@@ -37,6 +37,27 @@
 - [x] Proved it works (test / log / output)
 - [x] Showed the behavior diff to the user
 
+## Task: enrich public README, metadata, and validation
+
+### Steps
+- [x] 1. Expand the English README and plugin README without adding separate docs.
+- [x] 2. Update public plugin metadata and GitHub repository description/topics.
+- [x] 3. Add medium validation: Makefile, validation script, GitHub Action, and unit tests.
+- [x] 4. Run checks, commit, push, and report the behavior diff.
+
+### Risks
+- README should stay product-focused without becoming a long tutorial.
+- Validation should remain dependency-free and not require Codex local validator internals.
+
+### Review (fill in when done)
+- What changed: Expanded README surfaces, updated public plugin metadata, set GitHub description/topics, and added dependency-free validation with CI/unit tests.
+- How I verified it: `make check`, plugin validator, skill validator, `git diff --check`, and GitHub metadata readback passed.
+- Side effect risk: Low; no skill workflow semantics changed beyond documentation/metadata and validation infrastructure.
+
+### Done?
+- [x] Proved it works (test / log / output)
+- [x] Showed the behavior diff to the user
+
 ## Task: publish vibe-tutor as public GitHub marketplace repo
 
 ### Steps
