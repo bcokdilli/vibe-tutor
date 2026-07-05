@@ -1,0 +1,23 @@
+{
+  "name": "vibe-tutor",
+  "version": "0.1.0",
+  "description": "Concise, diff-based tutoring for recent Codex code changes.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Vibe Tutor",
+    "shortDescription": "Learn coding from the actual changes Codex just made.",
+    "longDescription": "Vibe Tutor pairs agentic coding with concise, diff-based, just-in-time tutoring so beginners can gradually understand the code they are building.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Use Vibe Tutor to explain the latest diff.",
+      "Use Vibe Tutor to quiz me on the change you just made."
+    ]
+  }
+}

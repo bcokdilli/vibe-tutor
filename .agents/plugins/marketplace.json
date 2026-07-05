@@ -1,0 +1,20 @@
+{
+  "name": "vibe-tutor",
+  "interface": {
+    "displayName": "Vibe Tutor"
+  },
+  "plugins": [
+    {
+      "name": "vibe-tutor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vibe-tutor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vibe Tutor"
+  short_description: "Learn coding from the actual changes Codex just made."
+  default_prompt: "Use Vibe Tutor to explain the latest diff."
