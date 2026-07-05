@@ -23,7 +23,7 @@
 ### Steps
 - [x] 1. Align marketplace name and README install commands for public GitHub distribution.
 - [x] 2. Re-run plugin, skill, JSON, and secret-pattern checks.
-- [ ] 3. Commit, create the public GitHub repo, and push.
+- [x] 3. Commit, create the public GitHub repo, and push.
 
 ### Risks
 - Public repo availability does not mean the plugin is installed for any user.
@@ -31,9 +31,9 @@
 
 ### Review (fill in when done)
 - What changed: Added root README and changed marketplace name to `vibe-tutor`.
-- How I verified it: Plugin validation, skill validation, JSON validation, and secret-pattern scan passed.
+- How I verified it: Plugin validation, skill validation, JSON validation, secret-pattern scan, public repo creation, and push passed.
 - Side effect risk: Low; public-facing metadata and docs only.
 
 ### Done?
-- [ ] Proved it works (test / log / output)
-- [ ] Showed the behavior diff to the user
+- [x] Proved it works (test / log / output)
+- [x] Showed the behavior diff to the user
